@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
 </head>
 
 <body class="body__bg" data-bgimg="assets/img/bg/body-bg.webp">

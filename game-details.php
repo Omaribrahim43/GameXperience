@@ -16,119 +16,83 @@ include_once 'inc/breadcrumbs.php';
             <div class="row">
                 <div class="col-12">
                     <div class="game_details_inner">
-                        <div class="game_details_content top">
-                            <span>BONX Digital Game Studio</span>
-                            <h2 class="game_details_title">din saurs - Hunter Sniper Shooter</h2>
-                            <div class="game_details_desc">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book. It has survived not only five centuries, but also the leap electro
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                    recently with desktop publishing software like Aldus PageMaker including versions of
-                                    Lorem Ipsum.</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book. It has survived not only five centuries, but also the leap electro
-                                    recently with desktop publishing software like including versions.</p>
+                        <div class="game-content row">
+                            <div class="game_details_content top col-lg-4">
+                                <span>GAMEXPERIENCE  Booking Website</span>
+                                <h2 class="game_details_title">Enigma Arcade</h2>
+                                    <div class="game__review d-flex align-items-center">
+                                        <ul class="d-flex">
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                        </ul>
+                                    </div>
+                                <div class="game_details_desc">
+                                    <p>
+                                        Location:
+                                        1234 Game Street,
+                                        Pixelville, ArcadeLand
+                                        <br>
+                                        Phone Number:
+                                        +1 (555) 123-4567
+                                        <br>
+                                        Open 24 hours
+                                    </p>
+                                </div>
+                                <div class="start_now_btn">
+                                    <a class="btn btn-link" href="game-details.php">START NOW <img
+                                            src="assets/img/icon/arrrow-icon.webp"> </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="game_details_thumb_inner slick__activation slick_navigation" data-slick='{
-                                "slidesToShow": 1,
-                                "slidesToScroll": 1,
-                                "arrows": true,
-                                "dots": false,
-                                "autoplay": false,
-                                "speed": 300,
-                                "infinite": true ,  
-                                "responsive":[  
-                                {"breakpoint":576, "settings": { "slidesToShow": 1 } }  
-                                ]                                                     
-                            }'>
-                            <div class="game_details_thumb">
-                                <img src="assets/img/others/detail-2.jpg">
+                            <div class="col-lg-8">
+                                <div class="game_details_thumb_inner slick__activation slick_navigation" data-slick='{
+                                        "slidesToShow": 1,
+                                        "slidesToScroll": 1,
+                                        "arrows": false,
+                                        "dots": false,
+                                        "autoplay": false,
+                                        "speed": 300,
+                                        "infinite": true ,
+                                        "responsive":[
+                                        {"breakpoint":576, "settings": { "slidesToShow": 1 } }
+                                        ]
+                                    }'>
+                                    <div class="game_details_thumb">
+                                        <img src="assets/img/others/1.png">
+                                    </div>
+                                    <div class="game_details_thumb">
+                                        <img src="assets/img/others/2.png">
+                                    </div>
+                                    <div class="game_details_thumb">
+                                        <img src="assets/img/others/3.png">
+                                    </div>
+                                    <div class="game_details_thumb">
+                                        <img src="assets/img/others/4.png">
+                                    </div>
+                                    <div class="game_details_thumb">
+                                        <img src="assets/img/others/5.png">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="game_details_thumb">
-                                <img src="assets/img/others/game-details-thumb.webp">
-                            </div>
+                            
                         </div>
-                        <div class="start_now_btn">
-                            <a class="btn btn-link" href="game-details.php">START NOW <img
-                                    src="assets/img/icon/arrrow-icon.webp"> </a>
                         </div>
-
                         <div class="game_details_content bottom">
                             <div class="game_details_content_step">
-                                <h2>Description:</h2>
+                                <h2></h2>
                                 <div class="game_details_desc">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap
-                                        electro
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                        recently with desktop publishing software like Aldus PageMaker including
-                                        versions of Lorem Ipsum.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap
-                                        electro
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                        recently with desktop publishing software like Aldus PageMaker including
-                                        versions of Lorem Ipsum.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap
-                                        electro
-                                        recently with desktop publishing software like including versions.</p>
+                                    <p><p>
+                                    <p></p>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="game_details_content_step">
-                                <h2>features:</h2>
+                                <h2></h2>
                                 <div class="game_details_desc">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap
-                                        electro
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                        recently with desktop publishing software like Aldus PageMaker including
-                                        versions of Lorem Ipsum.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap
-                                        electro
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                        recently with desktop publishing software like Aldus PageMaker including
-                                        versions of Lorem Ipsum.</p>
-                                </div>
-                            </div>
-                            <div class="game_details_content_step">
-                                <h2 class="color2">what’s new!</h2>
-                                <div class="game_details_desc">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap
-                                        electro
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                        recently with desktop publishing software like Aldus PageMaker including
-                                        versions of Lorem Ipsum.</p>
-                                    <p class="game_details_desc_style2">Lorem Ipsum is simply dummy text of the printing
-                                        and typesetting industry has been the
-                                        industry's standard dummy text ever since the 1500 printer took galley of type
-                                        scrambled
-                                        it to make a type specimen book.</p>
+                                    <p></p>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="gam_additional_information">

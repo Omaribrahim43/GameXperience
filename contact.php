@@ -25,7 +25,7 @@ include_once 'inc/breadcrumbs.php';
                             <div class="contact_info_text">
                                 <h3>Email:</h3>
                                 <p>
-                                    <a href="mailto:gamestudio@gmail.com">gamexperience@gmail.com</a><br>
+                                    <a href="mailto:gamexperience@gmail.com">gamexperience@gmail.com</a><br>
                                 </p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ include_once 'inc/breadcrumbs.php';
                         type specimen book centuries,</p>
                 </div>
                 <div class="contact_form_inner">
-                    <form id="contact-form" action="assets/mail.php">
+                    <form id="contact-form" method="POST" action="assets/mail.php">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form_input">

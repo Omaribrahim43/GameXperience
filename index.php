@@ -134,7 +134,7 @@ include_once 'inc/main-navbar.php';
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb">
-              <a href="#"><img src="assets/img/others/center-1.png" /></a>
+              <a href="#"><img src="assets/img/others/1.png" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Book Now
                   <img src="assets/img/icon/arrrow-icon.webp" />
@@ -144,7 +144,7 @@ include_once 'inc/main-navbar.php';
           </div>
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb">
-              <a href="#"><img src="assets/img/others/center-2.png" /></a>
+              <a href="#"><img src="assets/img/others/2.png" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Book Now
                   <img src="assets/img/icon/arrrow-icon.webp" />
@@ -154,7 +154,7 @@ include_once 'inc/main-navbar.php';
           </div>
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb">
-              <a href="#"><img src="assets/img/others/center-3.png" /></a>
+              <a href="#"><img src="assets/img/others/3.png" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Book Now
                   <img src="assets/img/icon/arrrow-icon.webp" />
@@ -164,7 +164,7 @@ include_once 'inc/main-navbar.php';
           </div>
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb">
-              <a href="#"><img src="assets/img/others/center-4.png" /></a>
+              <a href="#"><img src="assets/img/others/4.png" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Book Now
                   <img src="assets/img/icon/arrrow-icon.webp" />

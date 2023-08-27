@@ -5948,7 +5948,8 @@ section.error_section {
 }
 
 .start_now_btn {
-  text-align: right;
+  text-align: left;
+  margin-top: 5%;
 }
 @media only screen and (max-width: 575px) {
   .start_now_btn {
@@ -6004,13 +6005,13 @@ section.error_section {
   }
 }
 .game_details_content h2.game_details_title {
-  font-size: 50px;
+  font-size: 36px;
   line-height: 55px;
   margin-bottom: 28px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .game_details_content h2.game_details_title {
-    font-size: 40px;
+    font-size: 32px;
     line-height: 50px;
   }
 }

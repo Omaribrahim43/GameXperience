@@ -18,18 +18,19 @@ include_once 'inc/breadcrumbs.php';
             <div class="gaming_form_left d-flex">
               <div class="gaming_form_list">
                 <select>
-                  <option selected value="1">Category</option>
-                  <option value="2">Category2</option>
-                  <option value="3">Category3</option>
-                  <option value="4">Category4</option>
+                  <option selected value="0">City</option>
+                  <option value="amman">Amman</option>
+                  <option value="irbid">Irbid</option>
+                  <option value="zarqaa">Zarqaa</option>
                 </select>
               </div>
               <div class="gaming_form_list">
                 <select>
-                  <option selected value="1">All Platform</option>
-                  <option value="2">Platform2</option>
-                  <option value="3">Platform3</option>
-                  <option value="4">Platform4</option>
+                  <option selected value="0">All Platform</option>
+                  <option value="1">PC</option>
+                  <option value="2">Playstation 4</option>
+                  <option value="3">Playstation 5</option>
+                  <option value="3">X-Box</option>
                 </select>
               </div>
             </div>
@@ -44,7 +45,7 @@ include_once 'inc/breadcrumbs.php';
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-              <a href="game-details.php"><img src="assets/img/others/popular-game-thumb1.webp" alt="" /></a>
+              <a href="game-details.php"><img src="assets/img/others/center-1.png" alt="" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Game Details
                   <img src="assets/img/icon/arrrow-icon.webp" alt="" />
@@ -54,7 +55,7 @@ include_once 'inc/breadcrumbs.php';
           </div>
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
-              <a href="game-details.php"><img src="assets/img/others/popular-game-thumb2.webp" alt="" /></a>
+              <a href="game-details.php"><img src="assets/img/others/center-2.png" alt="" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Game Details
                   <img src="assets/img/icon/arrrow-icon.webp" alt="" />
@@ -64,7 +65,7 @@ include_once 'inc/breadcrumbs.php';
           </div>
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s">
-              <a href="game-details.php"><img src="assets/img/others/popular-game-thumb3.webp" alt="" /></a>
+              <a href="game-details.php"><img src="assets/img/others/center-3.png" alt="" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Game Details
                   <img src="assets/img/icon/arrrow-icon.webp" alt="" />
@@ -74,27 +75,7 @@ include_once 'inc/breadcrumbs.php';
           </div>
           <div class="col-lg-6 col-md-6">
             <div class="popular_gaming_thumb wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1.4s">
-              <a href="game-details.php"><img src="assets/img/others/popular-game-thumb4.webp" alt="" /></a>
-              <div class="gaming_details_btn">
-                <a class="btn btn-link" href="game-details.php">Game Details
-                  <img src="assets/img/icon/arrrow-icon.webp" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="popular_gaming_thumb wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
-              <a href="game-details.php"><img src="assets/img/others/popular-game-thumb5.webp" alt="" /></a>
-              <div class="gaming_details_btn">
-                <a class="btn btn-link" href="game-details.php">Game Details
-                  <img src="assets/img/icon/arrrow-icon.webp" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="popular_gaming_thumb wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
-              <a href="game-details.php"><img src="assets/img/others/popular-game-thumb2.webp" alt="" /></a>
+              <a href="game-details.php"><img src="assets/img/others/center-4.png" alt="" /></a>
               <div class="gaming_details_btn">
                 <a class="btn btn-link" href="game-details.php">Game Details
                   <img src="assets/img/icon/arrrow-icon.webp" alt="" />
@@ -149,28 +130,7 @@ include_once 'inc/breadcrumbs.php';
   <!-- counterup section end -->
 
   <!-- gaming update section start -->
-  <section class="gaming_update_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="gaming_update_inner d-flex justify-content-between align-items-center"
-            data-bgimg="assets/img/bg/gaming-update.webp">
-            <div class="gaming_update_text">
-              <h2>
-                Connect with us <br />
-                for gamING update.
-              </h2>
-            </div>
-            <div class="gaming_update_btn">
-              <a class="btn btn-link" href="contact.php">CONNECT NOW
-                <img src="assets/img/icon/arrrow-icon.webp" alt="" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php include_once 'inc/contact-us.php'; ?>
   <!-- gaming update section end -->
 </div>
 <!-- page wrapper end -->

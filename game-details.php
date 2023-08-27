@@ -48,15 +48,15 @@ include_once 'inc/breadcrumbs.php';
                                 ]                                                     
                             }'>
                             <div class="game_details_thumb">
-                                <img src="assets/img/others/game-details-thumb.webp" alt="">
+                                <img src="assets/img/others/detail-2.jpg">
                             </div>
                             <div class="game_details_thumb">
-                                <img src="assets/img/others/game-details-thumb.webp" alt="">
+                                <img src="assets/img/others/game-details-thumb.webp">
                             </div>
                         </div>
                         <div class="start_now_btn">
                             <a class="btn btn-link" href="game-details.php">START NOW <img
-                                    src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                                    src="assets/img/icon/arrrow-icon.webp"> </a>
                         </div>
 
                         <div class="game_details_content bottom">
@@ -184,10 +184,10 @@ include_once 'inc/breadcrumbs.php';
                             </div>
                             <div class="comment_list d-flex">
                                 <div class="comment_thumb">
-                                    <img src="assets/img/blog/post-comment1.webp" alt="">
+                                    <img src="assets/img/blog/post-comment1.webp">
                                 </div>
                                 <div class="comment_content">
-                                    <a href="#"> <img src="assets/img/others/dot-button.webp" alt=""> </a>
+                                    <a href="#"> <img src="assets/img/others/dot-button.webp"> </a>
                                     <h3>Randolph Frazier</h3>
                                     <div class="game__review d-flex align-items-center">
                                         <ul class="d-flex">
@@ -208,10 +208,10 @@ include_once 'inc/breadcrumbs.php';
                             </div>
                             <div class="comment_list d-flex">
                                 <div class="comment_thumb">
-                                    <img src="assets/img/blog/post-comment2.webp" alt="">
+                                    <img src="assets/img/blog/post-comment2.webp">
                                 </div>
                                 <div class="comment_content">
-                                    <a href="#"> <img src="assets/img/others/dot-button.webp" alt=""> </a>
+                                    <a href="#"> <img src="assets/img/others/dot-button.webp"> </a>
                                     <h3>Kenia Bumgarner</h3>
                                     <div class="game__review d-flex align-items-center">
                                         <ul class="d-flex">
@@ -266,7 +266,7 @@ include_once 'inc/breadcrumbs.php';
                                     </div>
                                     <div class="comments_submit_btn text-center">
                                         <a class="btn btn-link" href="#">SUBMIT NOW <img
-                                                src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                                                src="assets/img/icon/arrrow-icon.webp"> </a>
                                     </div>
                                 </form>
                             </div>
@@ -329,7 +329,7 @@ include_once 'inc/breadcrumbs.php';
                         </div>
                         <div class="gaming_update_btn">
                             <a class="btn btn-link" href="contact.php">CONNECT NOW <img
-                                    src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
+                                    src="assets/img/icon/arrrow-icon.webp"> </a>
                         </div>
                     </div>
                 </div>

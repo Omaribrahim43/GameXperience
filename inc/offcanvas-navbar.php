@@ -12,7 +12,7 @@
                         <ul class="offcanvas_main_menu">
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">About</a></li>
-                            <li><a href="#">Lounges</a></li>
+                            <li><a href="all-game.php">Lounges</a></li>
                             <li><a href="#">Community</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>

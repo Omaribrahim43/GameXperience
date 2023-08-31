@@ -21,10 +21,7 @@ include_once 'inc/breadcrumbs.php';
                         </div>
                         <div class="gaming_form_list">
                             <select>
-                                <option selected value="1">Category</option>
-                                <option value="2">Category2</option>
-                                <option value="3">Category3</option>
-                                <option value="4">Category4</option>
+                                <option selected value="1">Question</option>
                             </select>
                         </div>
                         <div class="question_form_btn">
@@ -205,25 +202,9 @@ include_once 'inc/breadcrumbs.php';
     <!-- faq page section end -->
 
     <!-- gaming update section start -->
-    <section class="gaming_update_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="gaming_update_inner d-flex justify-content-between align-items-center"
-                        data-bgimg="assets/img/bg/gaming-update.webp">
-                        <div class="gaming_update_text">
-                            <h2>Connect with us <br>
-                                for gamING update.</h2>
-                        </div>
-                        <div class="gaming_update_btn">
-                            <a class="btn btn-link" href="contact.php">CONNECT NOW <img
-                                    src="assets/img/icon/arrrow-icon.webp" alt=""> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+    include_once "inc/contact-us.php";
+    ?>
     <!-- gaming update section end -->
 
 </div>

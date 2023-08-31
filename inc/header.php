@@ -9,6 +9,8 @@
         content="240+ Best Bootstrap Templates are available on this website. Find your template for your project compatible with the most popular HTML library in the world." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- Add site Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
 
@@ -29,7 +31,6 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
-
 </head>
 
 <body class="body__bg" data-bgimg="assets/img/bg/body-bg.webp">

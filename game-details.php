@@ -17,7 +17,7 @@ include_once 'inc/breadcrumbs.php';
                 <div class="col-12">
                     <div class="game_details_inner">
                         <div class="game-content row">
-                            <div class="game_details_content top col-lg-4">
+                            <div class="game_details_content top col-lg-4 col-md-5">
                                 <span>GAMEXPERIENCE Booking Website</span>
                                 <h2 class="game_details_title">Enigma Arcade</h2>
                                 <div class="game__review d-flex align-items-center">
@@ -42,11 +42,11 @@ include_once 'inc/breadcrumbs.php';
                                     </p>
                                 </div>
                                 <div class="start_now_btn">
-                                    <a class="btn btn-link" href="game-details.php">START NOW <img
+                                    <a class="btn btn-link" id="strtNow">START NOW <img
                                             src="assets/img/icon/arrrow-icon.webp"> </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-md-7">
                                 <div class="game_details_thumb_inner slick__activation slick_navigation" data-slick='{
                                         "slidesToShow": 1,
                                         "slidesToScroll": 1,
@@ -103,116 +103,113 @@ include_once 'inc/breadcrumbs.php';
                                     <h4>Players Online:</h4>
                                     <span><a href="">48 Player</a></span>
                                 </div>
-
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_comment_wrapper match_details_comment">
+                        <div class="comments_box">
+                            <div class="comments_title">
+                                <h2>Reviews :</h2>
+                            </div>
+                            <div class="comment_list d-flex">
+                                <div class="comment_thumb">
+                                    <img src="https://htmldemo.net/bonx/bonx/assets/img/blog/post-comment1.webp">
+                                </div>
+                                <div class="comment_content">
+                                    <a href="#"> <img src="assets/img/others/dot-button.webp"> </a>
+                                    <h3>Randolph Frazier</h3>
+                                    <div class="game__review d-flex align-items-center">
+                                        <ul class="d-flex">
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                        </ul>
+                                        <span> 28 January, 2023</span>
+                                    </div>
+                                    <p>I recently had the pleasure of visiting Enigma Arcade, and I must say, it
+                                        exceeded all my expectations. From the moment I walked in, I was immersed in a world
+                                        of excitement and entertainment that kept me hooked for hours on end. Here's why
+                                        Enigma Arcade deserves a full 5-star rating.</p>
+                                </div>
+                            </div>
+                            <div class="comment_list d-flex">
+                                <div class="comment_thumb">
+                                    <img src="https://htmldemo.net/bonx/bonx/assets/img/blog/post-comment2.webp">
+                                </div>
+                                <div class="comment_content">
+                                    <a href="#"> <img src="assets/img/others/dot-button.webp"> </a>
+                                    <h3>Kenia Bumgarner</h3>
+                                    <div class="game__review d-flex align-items-center">
+                                        <ul class="d-flex">
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                            <li><a href="#"><i class="icofont-star"></i></a></li>
+                                        </ul>
+                                        <span> 24 February, 2023</span>
+                                    </div>
+                                    <p>Having heard a lot of buzz about Enigma Arcade, I decided to check it out for
+                                        myself and experience the gaming paradise that everyone was raving about. While my
+                                        visit was undoubtedly enjoyable, there were a few aspects that could use some
+                                        fine-tuning. Here's my balanced review of Enigma Arcade.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comments_form">
+                            <div class="comments_title">
+                                <h2>Place your review:</h2>
+                            </div>
+                            <div class="comments_form_inner">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="comments_form_input">
+                                                <input placeholder="Name *" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="comments_form_input">
+                                                <input placeholder="Email *" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="comments_form_input">
+                                                <input placeholder="Address *" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="comments_form_input">
+                                                <input placeholder="Review" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="comments_form_input">
+                                                <textarea placeholder="Write a review from here"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments_submit_btn text-center">
+                                        <a class="btn btn-link" href="#">SUBMIT NOW <img
+                                                src="assets/img/icon/arrrow-icon.webp"> </a>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="blog_comment_wrapper match_details_comment">
-                    <div class="comments_box">
-                        <div class="comments_title">
-                            <h2>Reviews :</h2>
-                        </div>
-                        <div class="comment_list d-flex">
-                            <div class="comment_thumb">
-                                <img src="https://htmldemo.net/bonx/bonx/assets/img/blog/post-comment1.webp">
-                            </div>
-                            <div class="comment_content">
-                                <a href="#"> <img src="assets/img/others/dot-button.webp"> </a>
-                                <h3>Randolph Frazier</h3>
-                                <div class="game__review d-flex align-items-center">
-                                    <ul class="d-flex">
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                    </ul>
-                                    <span> 28 January, 2023</span>
-                                </div>
-                                <p>I recently had the pleasure of visiting Enigma Arcade, and I must say, it
-                                    exceeded all my expectations. From the moment I walked in, I was immersed in a world
-                                    of excitement and entertainment that kept me hooked for hours on end. Here's why
-                                    Enigma Arcade deserves a full 5-star rating.</p>
-                            </div>
-                        </div>
-                        <div class="comment_list d-flex">
-                            <div class="comment_thumb">
-                                <img src="https://htmldemo.net/bonx/bonx/assets/img/blog/post-comment2.webp">
-                            </div>
-                            <div class="comment_content">
-                                <a href="#"> <img src="assets/img/others/dot-button.webp"> </a>
-                                <h3>Kenia Bumgarner</h3>
-                                <div class="game__review d-flex align-items-center">
-                                    <ul class="d-flex">
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                        <li><a href="#"><i class="icofont-star"></i></a></li>
-                                    </ul>
-                                    <span> 24 February, 2023</span>
-                                </div>
-                                <p>Having heard a lot of buzz about Enigma Arcade, I decided to check it out for
-                                    myself and experience the gaming paradise that everyone was raving about. While my
-                                    visit was undoubtedly enjoyable, there were a few aspects that could use some
-                                    fine-tuning. Here's my balanced review of Enigma Arcade.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comments_form">
-                        <div class="comments_title">
-                            <h2>Place your review:</h2>
-                        </div>
-                        <div class="comments_form_inner">
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="comments_form_input">
-                                            <input placeholder="Name *" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="comments_form_input">
-                                            <input placeholder="Email *" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="comments_form_input">
-                                            <input placeholder="Address *" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="comments_form_input">
-                                            <input placeholder="Review" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="comments_form_input">
-                                            <textarea placeholder="Write a review from here"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="comments_submit_btn text-center">
-                                    <a class="btn btn-link" href="#">SUBMIT NOW <img
-                                            src="assets/img/icon/arrrow-icon.webp"> </a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-</div>
-</section>
-<!--game details section area end-->
+    </section>
+    <!--game details section area end-->
 
-<!-- gaming update section start -->
-<?php
-include_once "inc/contact-us.php";
-?>
-<!-- gaming update section end -->
+    <!-- gaming update section start -->    
+    <?php
+    include_once "inc/contact-us.php";
+    ?>
+    <!-- gaming update section end -->
 
 </div>
 <!-- page wrapper end -->
